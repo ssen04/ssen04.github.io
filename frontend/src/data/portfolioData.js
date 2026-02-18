@@ -1,7 +1,7 @@
 export const portfolioData = {
   personal: {
     name: "Sukanya Sen",
-    title: "Data Analyst & Visual Computing Graduate Student",
+    title: "Data Analyst & Visual Computing Student",
     tagline: "Data • Content • Portals",
     location: "Vancouver, BC, Canada",
     phone: "+1 (236) 869 9830"
