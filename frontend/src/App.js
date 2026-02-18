@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import JobPosting from './pages/JobPosting';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<JobPosting />} />
+          <Route path="/" element={<Portfolio />} />
         </Routes>
       </BrowserRouter>
     </div>
