@@ -67,6 +67,10 @@ const Portfolio = () => {
                       className={`text-sm font-medium transition-colors hover:text-blue-400 ${activeSection === 'skills' ? 'text-blue-400' : ''}`}>
                 Skills
               </button>
+              <button onClick={() => scrollToSection('live-work')} 
+                      className={`text-sm font-medium transition-colors hover:text-blue-400 ${activeSection === 'live-work' ? 'text-blue-400' : ''}`}>
+                Live Work
+              </button>
               <Button onClick={() => scrollToSection('contact')} 
                       className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6 transition-all duration-300 hover:scale-105">
                 Get In Touch
