@@ -211,18 +211,18 @@ const Portfolio = () => {
             <Card className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
               <CardContent className="p-6">
                 <Award className="w-10 h-10 mb-4 text-blue-400" />
-                <h3 className="text-xl font-bold mb-2">Education</h3>
+                <h3 className="text-xl font-bold mb-2 text-cyan-300">Education</h3>
                 <p className="text-gray-300 mb-2"><strong>Simon Fraser University</strong></p>
-                <p className="text-gray-400 text-sm mb-4">Master of Visual Computing | GPA: 4.0 | 2025-2027</p>
+                <p className="text-gray-400 text-sm mb-4">Master of Visual Computing (Current) | GPA: 4.0 | 2025-2027</p>
                 <p className="text-gray-300 mb-2"><strong>University of British Columbia</strong></p>
-                <p className="text-gray-400 text-sm">B.Sc. Mathematics | 2019-2024</p>
+                <p className="text-gray-400 text-sm">B.Sc. Mathematics (Graduated) | 2019-2024</p>
               </CardContent>
             </Card>
 
             <Card className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
               <CardContent className="p-6">
                 <FileText className="w-10 h-10 mb-4 text-blue-400" />
-                <h3 className="text-xl font-bold mb-2">Key Strengths</h3>
+                <h3 className="text-xl font-bold mb-2 text-cyan-300">Key Strengths</h3>
                 <ul className="space-y-2 text-gray-300 text-sm">
                   <li>• Data pipeline configuration & ETL workflows</li>
                   <li>• Automated reporting & dashboard creation</li>
