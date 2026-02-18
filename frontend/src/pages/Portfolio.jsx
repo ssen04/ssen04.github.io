@@ -361,6 +361,67 @@ const Portfolio = () => {
         </div>
       </section>
 
+      {/* Live Work Section */}
+      <section id="live-work" className="min-h-screen py-20 px-6 relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black" />
+        <div className="container mx-auto max-w-6xl relative z-10">
+          <h2 className="text-5xl font-bold mb-12 text-center">Published Work & Live Projects</h2>
+          
+          <p className="text-center text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+            Explore my professional web development projects, content management work, and publications<br/>
+            for leading healthcare and sustainability organizations.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {portfolioData.liveWork.map((work, index) => (
+              <Card key={index} className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105 group">
+                <CardContent className="p-8">
+                  <div className="flex items-start justify-between mb-4">
+                    <h3 className="text-2xl font-bold text-cyan-300 group-hover:text-blue-400 transition-colors">{work.title}</h3>
+                    <ExternalLink className="w-5 h-5 text-blue-400 flex-shrink-0 ml-2" />
+                  </div>
+                  
+                  <p className="text-blue-400 text-sm mb-2">{work.organization}</p>
+                  <p className="text-gray-400 text-sm mb-4 italic">{work.role}</p>
+                  <p className="text-gray-300 mb-4">{work.description}</p>
+                  
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {work.tags.map((tag, idx) => (
+                      <Badge key={idx} className="bg-blue-600/20 text-blue-200 border-blue-500/30 text-xs">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+
+                  <Badge className="bg-purple-600/20 text-purple-200 border-purple-500/30 text-xs mb-4">
+                    {work.type}
+                  </Badge>
+
+                  <a 
+                    href={work.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors mt-4 font-medium">
+                    {work.type.includes('Report') ? 'View Report' : 'Visit Website'}
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <Card className="bg-gradient-to-r from-green-600/20 to-blue-600/20 border-green-500/30 backdrop-blur-sm inline-block">
+              <CardContent className="p-6">
+                <p className="text-green-200 font-medium">
+                  ✓ All projects demonstrate hands-on experience with content management, web publishing, SEO, and data-driven insights
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-6 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black" />
