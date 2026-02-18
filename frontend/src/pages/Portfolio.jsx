@@ -371,7 +371,7 @@ const Portfolio = () => {
           <Card className="bg-white/5 border-white/10 backdrop-blur-sm">
             <CardContent className="p-12 text-center">
               <div className="mb-8">
-                <h3 className="text-3xl font-bold mb-4">Interested in Samsung's Portal Content & Data Administrator Role</h3>
+                <h3 className="text-3xl font-bold mb-4 text-cyan-300">Interested in Samsung's Portal Content & Data Administrator Role</h3>
                 <p className="text-xl text-gray-300 mb-6">
                   I bring the perfect combination of data analysis expertise, content management experience,<br/>
                   and technical skills to excel in this position.
