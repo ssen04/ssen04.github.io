@@ -140,6 +140,54 @@ export const portfolioData = {
     ]
   },
 
+  liveWork: [
+    {
+      title: "Hippy Lab Website",
+      url: "https://www.hippylab.ca/",
+      organization: "Hippy Labs, UBC",
+      role: "Communications & Engagement Assistant",
+      description: "Managed content updates, research publications, and web maintenance for the Hippy Lab at BC Children's Hospital Research Institute.",
+      type: "Web Development & Content Management",
+      tags: ["HTML/CSS", "Content Management", "Web Updates"]
+    },
+    {
+      title: "SLIPHIP Organization Portal",
+      url: "https://www.sliphip.org/",
+      organization: "SLIPHIP Research Network",
+      role: "Web Content Contributor",
+      description: "Contributed to web content and digital presence for the Surveillance and Longitudinal Investigation of Paediatric Health Information Project.",
+      type: "Web Development & Content",
+      tags: ["Healthcare", "Digital Content", "Web Management"]
+    },
+    {
+      title: "HIP Registry Platform",
+      url: "https://www.hipregistry.com/",
+      organization: "BC Children's Hospital",
+      role: "Data Analyst & Web Contributor",
+      description: "Supported data management and web content for the Hospital Information Portal registry system.",
+      type: "Data Management & Web",
+      tags: ["Healthcare Data", "Registry Management", "Web Content"]
+    },
+    {
+      title: "UBC Sustainability Initiative Website",
+      url: "https://sustain.ubc.ca/",
+      organization: "UBC Sustainability Initiative",
+      role: "Communications & Engagement Assistant",
+      description: "Managed website updates, conducted SEO optimization, and tracked engagement via Google Analytics to improve digital presence.",
+      type: "Web Development & SEO",
+      tags: ["SEO", "Google Analytics", "Content Management", "Accessibility"]
+    },
+    {
+      title: "Hippy Lab Annual Report 2023-2024",
+      url: "https://drive.google.com/file/d/19gcVAbtYQmea5zbHqVofywv3B6YoBSRr/view",
+      organization: "Hippy Labs, UBC",
+      role: "Lead Content Creator",
+      description: "Created comprehensive annual report summarizing lab research outputs, data-driven insights, and visual assets for stakeholder communication.",
+      type: "Report Design & Data Visualization",
+      tags: ["Report Writing", "Data Visualization", "Stakeholder Communication", "Design"]
+    }
+  ],
+
   projects: [
     {
       title: "AI-Based Crowd Safety Monitoring System",
