@@ -107,7 +107,6 @@ const Portfolio = () => {
           <div className="text-xl md:text-3xl text-gray-300 mb-8 opacity-0 animate-fade-in font-light" 
                style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
             <p className="mb-2">Data • Content • Portals</p>
-            <p className="text-lg">Transforming complex data into actionable insights</p>
           </div>
 
           <div className="flex items-center justify-center gap-4 opacity-0 animate-fade-in" 
