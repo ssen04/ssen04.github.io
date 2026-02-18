@@ -289,7 +289,7 @@ const Portfolio = () => {
             {Object.entries(portfolioData.skills).map(([category, skills]) => (
               <Card key={category} className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                  <h3 className="text-2xl font-bold mb-6 flex items-center gap-3 text-cyan-300">
                     {category === 'Data Analysis & Tools' && <Database className="w-6 h-6 text-blue-400" />}
                     {category === 'Web & Content Management' && <Code className="w-6 h-6 text-blue-400" />}
                     {category === 'Communication & Marketing' && <BarChart3 className="w-6 h-6 text-blue-400" />}
