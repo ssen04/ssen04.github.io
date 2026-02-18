@@ -336,7 +336,7 @@ const Portfolio = () => {
             {portfolioData.projects.map((project, index) => (
               <Card key={index} className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 hover:scale-105">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-cyan-300">{project.title}</h3>
                   <p className="text-blue-400 text-sm mb-4">{project.tech}</p>
                   <p className="text-gray-300 mb-4">{project.description}</p>
                   
