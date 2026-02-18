@@ -152,17 +152,17 @@ const Portfolio = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
                 <div className="text-center">
                   <Database className="w-12 h-12 mx-auto mb-4 text-blue-400" />
-                  <h3 className="text-xl font-bold mb-2">Data Analysis</h3>
+                  <h3 className="text-xl font-bold mb-2 text-cyan-300">Data Analysis</h3>
                   <p className="text-gray-400 text-sm">SQL, Python, Excel, Analytics Tools</p>
                 </div>
                 <div className="text-center">
                   <Code className="w-12 h-12 mx-auto mb-4 text-blue-400" />
-                  <h3 className="text-xl font-bold mb-2">Web Development</h3>
+                  <h3 className="text-xl font-bold mb-2 text-cyan-300">Web Development</h3>
                   <p className="text-gray-400 text-sm">HTML, CSS, JavaScript, CMS</p>
                 </div>
                 <div className="text-center">
                   <BarChart3 className="w-12 h-12 mx-auto mb-4 text-blue-400" />
-                  <h3 className="text-xl font-bold mb-2">Content Strategy</h3>
+                  <h3 className="text-xl font-bold mb-2 text-cyan-300">Content Strategy</h3>
                   <p className="text-gray-400 text-sm">SEO, Analytics, Digital Marketing</p>
                 </div>
               </div>
