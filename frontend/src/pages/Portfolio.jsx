@@ -13,7 +13,7 @@ const Portfolio = () => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
       
-      const sections = ['hero', 'about', 'experience', 'skills', 'projects', 'contact'];
+      const sections = ['hero', 'about', 'experience', 'skills', 'projects', 'live-work', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
